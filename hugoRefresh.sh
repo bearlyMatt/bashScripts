@@ -30,11 +30,11 @@ cd /
 
 echo "returning to root"
 
-hugo -d $MH
+hugo -s $MH
 
-hugo -d $ES
+hugo -s $ES
 
-hugo -d $BAP
+hugo -s $BAP
 
 echo -e "\e[32mcompilation of /public folders complete"
 
