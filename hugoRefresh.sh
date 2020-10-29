@@ -14,17 +14,17 @@ cd $MH
 
 git pull
 
-echo -e "\e[32mgit pull command for bearlyMatt complete"
+echo -e "\e[32mgit pull command for bearlyMatt complete\e[0m"
 
 cd $ES
 
 git pull
 
-echo -e "\e[32mgit pull command for eskibles.us complete"
+echo -e "\e[32mgit pull command for eskibles.us complete\e[0m"
 
 cd $BAP
 
-echo -e "\e[32mgit pull command for bearlyapodcast.net complete"
+echo -e "\e[32mgit pull command for bearlyapodcast.net complete\e[0m"
 
 cd /
 
@@ -36,7 +36,7 @@ hugo -s $ES
 
 hugo -s $BAP
 
-echo -e "\e[32mcompilation of /public folders complete"
+echo -e "\e[32mcompilation of /public folders complete\e[0m"
 
 rm -R $MHW && rm -R $ESW && rm -R $BAPW
 
@@ -50,6 +50,6 @@ systemctl restart apache2
 
 echo "restarting Apache service"
 
-echo -e "\e[32mYour Hugo site(s) should now be updated"
+echo -e "\e[32mYour Hugo site(s) should now be updated\e[0m"
 
 echo "keep up the good work!"
