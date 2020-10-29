@@ -1,4 +1,4 @@
-#!/bin/#!/usr/bin/env bash
+#!/usr/bin/env bash
 
 MH=/home/ubuntu/hugo/matthewharazim.co.uk
 MHW=/var/www/html/matthewharazim.co.uk
