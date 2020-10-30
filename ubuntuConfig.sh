@@ -16,6 +16,12 @@ snap install core; snap refresh core
 
 snap install --classic certbot
 
+## add symlink for correct certbot usage
+
+ln -s /snap/bin/certbot /usr/bin/certbot
+
+
+
 ## comment out if not utilising server for static blog hosting
 
 ## as of v0.2 mkdir is redundant due to creation of directories in hugoRefresh.sh
