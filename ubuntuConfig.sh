@@ -12,6 +12,10 @@ apt-get update && apt-get upgrade --y
 
 apt-get install neofetch hugo ifupdown apache2 ufw vsftpd python3-pip mlocate net-tools
 
+snap install core; snap refresh core
+
+snap install --classic certbot
+
 ## comment out if not utilising server for static blog hosting
 
 ## as of v0.2 mkdir is redundant due to creation of directories in hugoRefresh.sh
