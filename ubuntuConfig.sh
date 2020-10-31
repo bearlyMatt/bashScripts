@@ -2,15 +2,15 @@
 
 ## declare variables
 
-HOME=/home/ubuntu
+HOME=/home/bearlyadmin
 
-HUGO=/home/ubuntu/hugo
+HUGO=/home/bearlyadmin/hugo
 
 ## run as sudo
 
 apt-get update && apt-get upgrade --y
 
-apt-get install neofetch hugo ifupdown apache2 ufw vsftpd python3-pip mlocate net-tools
+apt-get install neofetch hugo ifupdown apache2 ufw vsftpd python3-pip mlocate net-tools tmux bc htop git
 
 snap install core; snap refresh core
 
