@@ -10,13 +10,13 @@ HUGO=/home/bearlyadmin/hugo
 
 apt-get update && apt-get upgrade --y
 
-apt-get install neofetch hugo ifupdown apache2 ufw vsftpd python3-pip mlocate net-tools tmux bc htop git
+apt-get install neofetch hugo ifupdown apache2 ufw vsftpd python3-pip mlocate net-tools tmux bc htop git unzip mariadb-server
 
 
 ## install php and modules
 ## current modules are led by firefly iii dependencies
 
-apt-get install php php-mbstring php-bcmath php-curl php-zip php-gd php-xml php-ldap php-intl php-mysql
+apt-get install php php-mbstring php-bcmath php-curl php-zip php-gd php-xml php-ldap php-intl php-mysql php-imagick
 
 
 ## download and install composer
