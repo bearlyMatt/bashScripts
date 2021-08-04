@@ -16,7 +16,7 @@ apt-get install neofetch hugo ifupdown apache2 ufw vsftpd python3-pip mlocate ne
 ## install php and modules
 ## current modules are led by firefly iii dependencies
 
-apt-get install php php-mbstring php-bcmath php-curl php-zip php-gd php-xml php-ldap php-intl php-mysql php-imagick
+apt-get install php php-mbstring php-bcmath php-curl php-zip php-gd php-xml php-ldap php-intl php-mysql php-imagick exa
 
 
 ## download and install composer
@@ -33,7 +33,11 @@ snap install --classic certbot
 
 ln -s /snap/bin/certbot /usr/bin/certbot
 
+## Install rust and rustup
 
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+
+cargo install zellij
 
 ## comment out if not utilising server for static blog hosting
 
